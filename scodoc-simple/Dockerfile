@@ -33,4 +33,4 @@ EXPOSE 8080
 WORKDIR /
 COPY start.sh /
 RUN chmod u+x /start.sh
-CMD /start.sh
+CMD /start.sh ${timeout}
